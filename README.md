@@ -203,8 +203,3 @@ To test the API using **Postman**:
 4. Enter the API URL (e.g., `http://localhost:3000/users`).
 5. If required, add a request body for `POST` or `PUT` requests.
 6. Click **Send** and check the response.
-
----
-**Author:** Your Name  
-**Project:** User Management API
-
