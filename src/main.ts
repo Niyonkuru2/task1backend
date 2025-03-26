@@ -4,11 +4,13 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  //This ensures all routes start with "/api"
+  // Set a global prefix to all routes to start with /api
   app.setGlobalPrefix('api');
 
   const port = process.env.PORT || 3000;
-  await app.listen(port);
+  await app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
 }
 
 bootstrap();
