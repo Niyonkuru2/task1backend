@@ -4,7 +4,10 @@ This API allows managing users. It includes CRUD operations: creating, reading, 
 
 ## Base URL
 ```
+local
 http://localhost:3000
+remote
+`https://crude-operation-pprb.onrender.com/api` server address
 ```
 
 ## Authentication
@@ -200,6 +203,6 @@ To test the API using **Postman**:
 1. Open **Postman**.
 2. Create a new request.
 3. Select the appropriate HTTP method (`GET`, `POST`, `PUT`, `DELETE`).
-4. Enter the API URL (e.g., `http://localhost:3000/users`).
+4. Enter the API URL (e.g., `https://crude-operation-pprb.onrender.com/api/users` or `https://crude-operation-pprb.onrender.com/api/users/1`).
 5. If required, add a request body for `POST` or `PUT` requests.
 6. Click **Send** and check the response.
