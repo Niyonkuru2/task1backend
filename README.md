@@ -197,6 +197,7 @@ The API follows a simple error-handling approach using HTTP status codes and des
 - **Prisma:** An ORM for database access.
 - **bcrypt:** A library for hashing passwords.
 - **Postman:** Used for testing API endpoints.
+- **Render:** Used for deploying backend.
 
 ## API Testing with Postman
 To test the API using **Postman**:
